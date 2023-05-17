@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 
 // JSX 자바스크립트 안에 있는 HTML 코드 , 자바스크립트 XML 
@@ -27,7 +28,7 @@ const App =() => {
 
   return (
     <div>
-      <h2>리액트 시작 !!</h2>
+      <NewExpense />
       <Expenses items={expenses}/>
     </div>
   );
