@@ -2,8 +2,6 @@
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
-import React, { useState } from 'react';
-
 // 리액트에서 class 속성은 className!
 
 const ExpenseItem = props => {
